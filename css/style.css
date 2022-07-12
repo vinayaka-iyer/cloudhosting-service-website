@@ -3,7 +3,7 @@
 :root {
     --primary-color: #047aed;
     --secondary-color: #1c3fa8;
-    --dark-color: #002240;
+    --dark-color: #0837c3;
     --light-color: #f4f4f4;
     --success-color: #5cb85c;
     --error-color: #d9534f;
@@ -137,7 +137,46 @@ code, pre {
     right: 0;
     left: 0;  
     background-color: #fff; 
-    transform: skewY(-3deg);
+    /*transform: skewY(-3deg);*/
+}
+
+/*theme options*/
+.theme-options-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.theme-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: -2px 2px 6px -2px rgba(0,0,0,.75);
+    background-color: black;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.theme-dot:hover {
+    border-width: 3px;
+}
+
+#light-mode {
+    background-color: #fff;
+}
+#blue-mode {
+    background-color: #192734;
+}
+#green-mode {
+    background-color: #78866b;
+}
+#purple-mode {
+    background-color: #7e4c74;
+}
+
+#settings-note{
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
 }
 
 /*Stats*/
@@ -317,8 +356,3 @@ code, pre {
         width: 300px;
     }
 }
-
-
-
-
-

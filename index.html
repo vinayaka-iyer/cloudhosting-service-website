@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+    
+    <link id="theme-style" rel="stylesheet" href="">
+
     <title>Cloverworks</title>
 </head>
 <body>
@@ -32,6 +35,14 @@
                 <h1>Easier Deployment</h1>
                 <p>Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out the form to try a demo of our platform</p>
                 <a href="features.html" class="btn btn-outline">Read More</a>
+                <h3 class="text-center">Personalize Theme</h3>
+                    <div class="theme-options-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                    </div>
+                    <p id="settings-note">Theme setting will be saved for your<br> next visit</p>
             </div>
             <div class="showcase-form card">
                 <h2>Request a Demo</h2>
@@ -87,7 +98,7 @@
 
     <section class="cli">
         <div class="container grid">
-            <img src="images/cli.png">
+            <img src="images/cli.jpg">
             <div class="card">
                 <h3>Cross Platform CLI</h3>
             </div>
@@ -167,5 +178,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
